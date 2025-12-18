@@ -8,9 +8,9 @@ import helmet from "helmet";
 
 import { AppDataSource } from "./data-source";
 
-import { UserController } from "./src/controllers/UserController";
+import { UserController } from "./controllers/UserController";
 
-import { CommentController } from "./src/controllers/CommentController";
+import { CommentController } from "./controllers/CommentController";
 
 const app = express();
 
